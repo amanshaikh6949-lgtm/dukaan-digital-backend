@@ -1,0 +1,1 @@
+{\n  "name": "dukaan-digital-backend",\n  "version": "1.0.0",\n  "scripts": {\n    "start": "ts-node api/index.ts"\n  },\n  "dependencies": {\n    "typescript": "^4.0.0",\n    "ts-node": "^10.0.0"\n  }\n}
