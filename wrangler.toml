@@ -1,0 +1,16 @@
+# Cloudflare Workers Configuration for dukkan.digital
+
+# The `wrangler.toml` file is used to configure Cloudflare Worker projects.
+
+name = "dukaan-digital"
+type = "javascript"
+
+account_id = "YOUR_ACCOUNT_ID"
+workers_dev = true
+compatibility_date = "2026-04-20"
+
+# Settings for the dukkan.digital domain
+# Add your zone ID and any other settings required.
+
+[[triggers]]
+crons = ["0 * * * *"] # Example cron trigger for every hour.
